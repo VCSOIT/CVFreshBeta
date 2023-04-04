@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144358443328",
+    "project_id": "cvfresh-de744",
+    "storage_bucket": "cvfresh-de744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144358443328:android:79c1f3756b8de90d6212a5",
+        "android_client_info": {
+          "package_name": "com.webid.cvfresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144358443328-o1a7u4cjtua92u77u0ve2orgiqu2lvli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1spJGF6qYkjjNOolVUy1yiJ7AetdmQVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144358443328-o1a7u4cjtua92u77u0ve2orgiqu2lvli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
