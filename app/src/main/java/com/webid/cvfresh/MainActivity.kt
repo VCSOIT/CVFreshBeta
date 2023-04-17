@@ -1,13 +1,15 @@
 package com.webid.cvfresh
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -50,6 +52,14 @@ class MainActivity : AppCompatActivity() {
             if (task.isSuccessful)
             {
                 Toast.makeText(this,"Success",Toast.LENGTH_LONG).show()
+
+
+                Toast.makeText(this,auth.uid.toString(), Toast.LENGTH_LONG).show()
+                val intent = Intent(this, CreateProfile::class.java)
+                intent.putExtra("User", auth.uid)
+
+                startActivity(intent)
+
             }
 
 
@@ -64,14 +74,14 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+        btn_login.setOnClickListener()
+        {
+            val entered_email = email.text.toString();
+            val entered_password = password.text.toString()
 
+            
 
-
-
-
-
-
-
+        }
 
 
 
